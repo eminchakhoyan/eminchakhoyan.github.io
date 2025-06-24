@@ -3578,7 +3578,7 @@ Created using IcoMoon - icomoon.io
   margin-top: 35px; }
 
 .profile-page .page-header {
-  min-height: 550px; }
+  min-height: 500px; }
 
 .profile-page .profile-container {
   color: #FFFFFF; }
@@ -5155,16 +5155,18 @@ Created using IcoMoon - icomoon.io
   left: 0;
   opacity: 0.0;
   z-index: 99; }
-.container > .content-center{
-  display: flex;
-  justify-content: space-between;
-}
+/*.container > .content-center{*/
+/*  display: flex;*/
+/*  justify-content: start;*/
+/*  align-items: center;*/
+/*}*/
 .cc-profile-image img {
   position: relative;
   border-radius: 20%;
-  width: 180px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
-
+  object-position: top center;
   padding: 0;
   margin: 0;
   border: 15px solid transparent;
